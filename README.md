@@ -1,37 +1,54 @@
 # Financial Machine Learning
 
-FML tutorial work and Python implementations.
+FML tutorial work and Python implementations for faculty evaluation.
 
 ## Tutorials
 
-### T4 - Stock Price Prediction
-- ARIMA
-- LSTM
-- Time-series preprocessing and evaluation
+### T4 - Stock Price Prediction with ARIMA
+- ADF stationarity test
+- First differencing
+- ARIMA(7,1,7)
+- MAE and RMSE evaluation
 
 ### T5 - Derivative Pricing
 - European call option pricing
-- Black-Scholes model
-- Machine learning model comparison
+- Black-Scholes formula
+- Linear Regression
+- Decision Tree
+- Random Forest
+- SVR
+- Gradient Boosting
+- 5-fold cross-validation
 
-### T6 - Treasury Yield Curve Prediction
-- Yield curve data and preprocessing
-- Multi-output regression
-- Scaling
-- Cross-validation
-- GridSearchCV
+### T6 - Stock Price Prediction with LSTM
+- MinMax scaling
+- 80/20 train-test split
+- 60-step sequences
+- LSTM with 50 units
+- Dropout
+- Adam optimizer
+- MSE loss
+- MAE, RMSE and R² evaluation
 
-### T7 - Classification and SVM
+### T7 - Treasury Yield Curve Prediction
+- Moving-average forecasting
+- ARIMA forecasting
+- Nelson-Siegel model
+- Vasicek model simulation
+- CIR model simulation
+
+## Additional FML Classification Practice
+
 - Logistic Regression
-- SVM classification
 - Multiclass classification
-- Class imbalance
+- SVM
+- Class imbalance handling concepts
 - Data transformation
 - Linear, polynomial and RBF kernels
-- Hyperparameter tuning
+- GridSearchCV hyperparameter tuning
 
 ## Libraries
 
-Python, NumPy, Pandas, Matplotlib, Scikit-learn, SciPy, Statsmodels and TensorFlow/Keras.
+Python, NumPy, Pandas, Matplotlib, SciPy, Scikit-learn, Statsmodels and TensorFlow/Keras.
 
-This repository is kept separate from the FDS tutorial repository.
+The repository is kept separate from the FDS tutorial repository.
